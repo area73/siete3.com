@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Patterns on Siete3.com -- Hugo Minimal</title>
+    <link>http://www.siete3.com/tags/design-patterns/</link>
+    <description>Recent content in Design Patterns on Siete3.com -- Hugo Minimal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.siete3.com/tags/design-patterns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Method chaining in Javascript</title>
+      <link>http://www.siete3.com/posts/method-chaining-in-javascript/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/method-chaining-in-javascript/</guid>
+      <description>Method chaining in Javascript from wikipedia Method chaining, also known as named parameter idiom, is a common syntax for invoking multiple method calls in object-oriented programming languages.
+The key to achieve this is that each method returns an object, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
+A similar syntax is method cascading, where after the method call the expression evaluates to the current object, not the return value of the method.</description>
+    </item>
+    
+  </channel>
+</rss>
