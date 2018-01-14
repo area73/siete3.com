@@ -2,7 +2,7 @@
 title: "Lexical and Dynamic scope"
 date: 2018-01-14
 tags: ["javascript", "design patterns"]
-draft: false
+draft: true
 ---
 
 
@@ -35,15 +35,12 @@ We can also skeep lexical scope by doing even a worse thing and that is using th
 
 LHS look-up is done when a variable appears on the left-hand side of an assignment operation, and an RHS look-up is done when a variable appears on the right-hand side of an assignment operation.
 
-I think of it as follows :<br> 
+I think of it as follows :<br>
     lhs lookup is a container lookup <br>
     rhs lookup is a value lookup<br>
 
-
 # Dynamic scope
-
 
 ### Bibliograpy:<br>
 https://stackoverflow.com/questions/36383795/javascript-lhs-and-rhs-lookup
 Plural sight course: Advanced javascript, by kyle Simpson
-
