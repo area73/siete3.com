@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+        <title>functional programming</title>
         <style>
 
     html body {
@@ -77,7 +77,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#"></a>
+                    <a class="navbar-brand visible-xs" href="#">functional programming</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -137,8 +137,16 @@
     
     
 
-    <h4><a href="/posts/functional-programming/"></a></h4>
-    <h5>January 1, 0001</h5>
+    <h4><a href="/posts/functional-programming/">functional programming</a></h4>
+    <h5>January 12, 2018</h5>
+    
+    <a href="http://www.siete3.com/tags/javascript">
+        <kbd class="item-tag">javascript</kbd>
+    </a>
+    
+    <a href="http://www.siete3.com/tags/design%20patterns">
+        <kbd class="item-tag">design patterns</kbd>
+    </a>
     
 
 </div>
@@ -153,7 +161,7 @@
 <p>It is a <b>declarative</b> programming paradigm, which means programming is done with expressions or declarations instead of statements. To put it in a diferent way we can say that
  <b>declarative programming cares about what</b> to perform an action and imperative cares about how to perform that action</p>
 
-<h2 id="imperative-vs-declarative">Imperative VS Declarative</h2>
+<h2 id="imperative-vs-declarative-what-vs-how">Imperative Vs. Declarative ||  What Vs. How</h2>
 
 <p>In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e., changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.</p>
 
@@ -185,35 +193,136 @@ An example will be to order an array. If we have an unorder array and we create 
 
 <h2 id="working-with-array-functions">Working with array Functions</h2>
 
-<pre><code class="language-javascript">  users.find((u) =&gt; {
+<pre><code class="language-javascript">  // Returns the value of the first element in an array that pass a test
+  users.find((u) =&gt; {
     return u.id === id;
   });
-
+  // Checks if every element in an array pass a test
   users.every((u) =&gt; {
     return u.isAdmin;
   });
-
+  // Checks if any of the elements in an array pass a test
   users.some((u) =&gt; {
     return u.isAdmin;
   });
-
+  // Creates a new array with every element in an array that pass a test
   users.filter((u) =&gt; {
     return u.isAdmin;
   });
-
+  // Creates a new array with the result of calling a function for each array element
   users.map((u) =&gt; {
     u.updated = new Date();
     return u;
   });
-
+  // Reduce the values of an array to a single value (going left-to-right)
   users.reduce((accumulator, n) =&gt; {
     return accumulator + n
   }, 0);
 </code></pre>
 
-<p>Bibliography:
-<a href="https://en.wikipedia.org/wiki/Functional_programming">https://en.wikipedia.org/wiki/Functional_programming</a>
-Pluralsite video (Fundamentals of Functional Programming in JavaScript by Nate Taylor)[<a href="https://app.pluralsight.com/library/courses/javascript-functional-programming-fundamentals/exercise-files">https://app.pluralsight.com/library/courses/javascript-functional-programming-fundamentals/exercise-files</a>]</p>
+<h2 id="chaining">Chaining</h2>
+
+<p>Exercise: For a given array of numer we what to:
+ 1) reduce every value by 1.
+ 2) summ all resulting  values that are divisible by 3</p>
+
+<p>Solution:</p>
+
+<p><b>IMPERATIVE</b></p>
+
+<pre><code class="language-javascript">// given array
+let numbers = [2,4,10,12,19,23];
+let sum = 0;
+
+for (let i = 0; i &lt; numbers.length; i++) {
+  numbers[i] = numbers[i] - 1;
+  if (numbers[i] % 3 == 0) {
+    sum += numbers[i];
+  }
+}
+
+console.log(sum)  // sum = 30;
+</code></pre>
+
+<p><b>DECLARATIVE</b></p>
+
+<pre><code class="language-javascript">  // given array
+  // given array
+let numbers = [2,4,10,12,19,23];
+
+let substractOne = n =&gt; n-1;
+let isDivisbleBy3 = n =&gt; n % 3 === 0 ? n: null;
+let add = (n,i) =&gt; n + i;
+
+let sum = numbers.map(substractOne)
+          .filter(isDivisbleBy3)
+          .reduce(add, 0);
+
+console.log(sum)  // sum = 30;
+
+</code></pre>
+
+<h2 id="currying">Currying</h2>
+
+<p>Convert a function that accepts multiple parameters into a series of functions that each  only take  1 parameter</p>
+
+<p>Let&rsquo;s see an example: <br></p>
+
+<pre><code class="language-javascript">  // starting from
+  users.find((u) =&gt; {
+    return u.id === id;
+  });
+
+// now we could do soomethig like:
+
+const byId = (item) =&gt; {
+  return item.id === id;
+}
+
+users.find(byId)
+
+// the problem with the above code is that id will be undefined since we need 2 params and we are passing only one
+
+// the solution will be a function that returns another function
+const byId = (id) =&gt; {
+  return (item) =&gt; {
+    return item.id === id;
+  }
+}
+
+users.find(byId(2))
+
+// So this also means that you could use byId in any place and you can call it like:
+byId(2)(users)
+
+// Ramda has a curry function that does currying
+
+const byId = R.curry(id, item) {
+  return item.id === id;
+}
+
+users.find(byId(2))
+
+// also de advantage of using the R.curry funtion is that it accepts more than 2 parameters
+// for example:
+
+const add = R.curry((a,b,c,) =&gt; {
+  return a + b + c;
+})
+
+add(1)(2)(3);
+
+
+</code></pre>
+
+<h2 id="partial-application">Partial application</h2>
+
+<p>Supplying less arguments than required</p>
+
+<p>Bibliography:<br>
+Wikipedia: <a href="https://en.wikipedia.org/wiki/Functional_programming">https://en.wikipedia.org/wiki/Functional_programming</a> <br>
+Pluralsite video:  <a href="https://app.pluralsight.com/library/courses/javascript-functional-programming-fundamentals/exercise-files">(Fundamentals of Functional Programming in JavaScript by Nate Taylor)</a><br>
+w3School: <a href="https://www.w3schools.com/jsref/jsref_obj_array.asp">JavaScript Array Reference</a></p>
 </div>
 
     

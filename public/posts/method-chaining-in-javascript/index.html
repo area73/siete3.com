@@ -188,11 +188,11 @@ setHeight()
 <pre><code class="language-javascript">// Definition of the class
 // ------------------------
 class Person {
-  
+
   constructor() {
     console.log(&quot;person created&quot;)
   }
-  
+
   setName(name) {
    this.name = name;
   }
@@ -230,13 +230,13 @@ console.log(pers);
 <p>So far so good.</p>
 
 <p>But this could be improved doing  method chaining. This way we will remove the call of pers object every time we want to execute a function of that object.
-<br>So our execution will be something like this:</p>
+<br/ >So our execution will be something like this:</p>
 
 <pre><code class="language-javascript">var pers = new Person().setName(&quot;Joe&quot;).setEyeColor(&quot;blue&quot;).setHairColor(&quot;black&quot;).setHeight(&quot;1.75&quot;);
 console.log(pers);
 </code></pre>
 
-<p>or better yet, we can apply some formating and also we don&rsquo;t even need to assign a var to person since we are doing method chaining , rewriting the above syntax as:</p>
+<p>Or better yet, we can apply some formating and also we don&rsquo;t even need to assign a var to person since we are doing method chaining , rewriting the above syntax as:</p>
 
 <pre><code class="language-javascript">console.log(
     new Person().
@@ -253,11 +253,11 @@ This is because when we create a new person, none of the methods that we previou
 <p>To solve this we will need to redefine our methods to return the same object, like this</p>
 
 <pre><code class="language-javascript">class Person {
-  
+
   constructor() {
     console.log(&quot;person created&quot;)
   }
-  
+
   setName(name) {
    this.name = name;
    return this;
@@ -265,9 +265,9 @@ This is because when we create a new person, none of the methods that we previou
 
    setEyeColor(eyeColor) {
     this.eyeColor = eyeColor;
-    return this;  
+    return this;
   }
-  
+
    setHairColor(hairColor) {
     this.HairColor = hairColor;
     return this;
@@ -291,7 +291,7 @@ This is because when we create a new person, none of the methods that we previou
 );
 
 // Person {HairColor:&quot;brown&quot;, eyeColor:&quot;black&quot;, height:&quot;1.85&quot;, name:&quot;Dina&quot;}
-    
+
 </code></pre>
 </div>
 

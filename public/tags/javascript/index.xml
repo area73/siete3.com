@@ -6,10 +6,30 @@
     <description>Recent content in Javascript on Siete3.com -- Hugo Minimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IIFE - Iimmediatelly Invoked Function Expression</title>
+      <link>http://www.siete3.com/posts/patterns/iife/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/patterns/iife/</guid>
+      <description>IIFE - Iimmediatelly Invoked Function Expression var foo = &amp;quot;foo1&amp;quot;; (function() { var foo = &amp;quot;foo2&amp;quot;; console.log(foo); // foo2 })(); console.log(foo); // foo1 // we can also write the above statement like: (function() { // code }());  We use IIFE in order to not pollute the global scope.
+Bibliography: Ben Alman: Immediately-Invoked Function Expression (IIFE)</description>
+    </item>
+    
+    <item>
+      <title>functional programming</title>
+      <link>http://www.siete3.com/posts/functional-programming/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/functional-programming/</guid>
+      <description>functional programming In computer science, functional programming is a programming paradigm — a style of building the structure and elements of computer programs— that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. To put it in a diferent way we can say that declarative programming cares about what to perform an action and imperative cares about how to perform that action</description>
+    </item>
     
     <item>
       <title>Method chaining in Javascript</title>

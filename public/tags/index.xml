@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Siete3.com -- Hugo Minimal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 08 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,43 +14,16 @@
     <item>
       <title>Design Patterns</title>
       <link>http://www.siete3.com/tags/design-patterns/</link>
-      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/design-patterns/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>http://www.siete3.com/tags/go/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.siete3.com/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>http://www.siete3.com/tags/golang/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.siete3.com/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>http://www.siete3.com/tags/hugo/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.siete3.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Javascript</title>
       <link>http://www.siete3.com/tags/javascript/</link>
-      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/javascript/</guid>
       <description></description>
@@ -71,15 +44,6 @@
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/named-parameter-idiom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>http://www.siete3.com/tags/themes/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.siete3.com/tags/themes/</guid>
       <description></description>
     </item>
     
