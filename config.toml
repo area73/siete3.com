@@ -1,9 +1,9 @@
 baseURL = "http://www.siete3.com/"
-languageCode = "es-es"
-title = "Siete3.com -- Hugo Minimal"
+languageCode = "en-US"
+title = "Siete3.com"
 theme = "minimal"
 # theme = "hyde"
-disqusShortname = "@area73" # delete this to disable disqus comments
+disqusShortname = "siete3-com" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
