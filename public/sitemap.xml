@@ -13,6 +13,10 @@
   </url>
   
   <url>
+    <loc>http://www.siete3.com/posts/functional-programming/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/categories/</loc>
     <priority>0</priority>
   </url>

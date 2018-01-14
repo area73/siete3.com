@@ -32,11 +32,11 @@ And this is the definition of our class
 // Definition of the class
 // ------------------------
 class Person {
-  
+
   constructor() {
     console.log("person created")
   }
-  
+
   setName(name) {
    this.name = name;
   }
@@ -69,18 +69,19 @@ pers.setHairColor("black");
 pers.setHeight("1.75");
 
 console.log(pers);
-``` 
+```
 
 So far so good.
 
 But this could be improved doing  method chaining. This way we will remove the call of pers object every time we want to execute a function of that object. 
-<br>So our execution will be something like this:
+<br/ >So our execution will be something like this:
 
 ```javascript
 var pers = new Person().setName("Joe").setEyeColor("blue").setHairColor("black").setHeight("1.75");
 console.log(pers);
 ```
-or better yet, we can apply some formating and also we don't even need to assign a var to person since we are doing method chaining , rewriting the above syntax as:
+
+Or better yet, we can apply some formating and also we don't even need to assign a var to person since we are doing method chaining , rewriting the above syntax as:
 
 ````javascript
 console.log(
@@ -99,11 +100,11 @@ To solve this we will need to redefine our methods to return the same object, li
 
 ```javascript
 class Person {
-  
+
   constructor() {
     console.log("person created")
   }
-  
+
   setName(name) {
    this.name = name;
    return this;
@@ -111,9 +112,9 @@ class Person {
 
    setEyeColor(eyeColor) {
     this.eyeColor = eyeColor;
-    return this;  
+    return this;
   }
-  
+
    setHairColor(hairColor) {
     this.HairColor = hairColor;
     return this;
@@ -138,9 +139,5 @@ console.log(
 );
 
 // Person {HairColor:"brown", eyeColor:"black", height:"1.85", name:"Dina"}
-    
+
 ```
-
-
- 
-  
