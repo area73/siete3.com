@@ -16,6 +16,14 @@ brew install hugo
 ## Generate static site
 To generate pages of a static site run ``` hugo ``` from command line and all the compiled output will be placed on /public folder. 
 
+## Serve site local with watcher
+To run Hugo server locally with a watcher, from project root run:
+``` bash
+hugo serve -w
+```
+
+
+
 ## Deploy
 To deploy this site I create an account into http://surge.sh/ and I link my domain siete3.com by CNAME.
 

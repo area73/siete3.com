@@ -2,6 +2,7 @@
 title: "functional programming"
 date: 2018-01-12
 tags: ["javascript", "design patterns"]
+categories: ["Functional"]
 draft: false
 ---
 

@@ -1,3 +1,13 @@
+---
+title: "Global variables are bad"
+date: 2018-06-14
+tags: ["javascript", "design patterns"]
+draft: false
+---
+
+
+## Extracted from a Gist, a very nice explanation
+
 ```javascript
 
 // It is important to declare your variables.
@@ -6,6 +16,7 @@
     var foo = 'Hello, world!';
     print(foo);  //=> Hello, world!
 })();
+print(foo);  // No way José !!
 
 // Because if you don't, the become global variables.
 
@@ -14,10 +25,10 @@
     print(foo)  //=> Hello, world!
 })();
 
-print(foo)  //=> Hello, world!
+print(foo)  //=> WTF, it returns "Hello, world!"
 
 
-// When global variables sneak into your code the can cause problems.
+// When global variables sneak into your code they can cause problems.
 // Especially in applications with concurrency.
 
 var count = function() {
