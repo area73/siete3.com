@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Siete3.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>Design Patterns</title>
       <link>http://www.siete3.com/tags/design-patterns/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/design-patterns/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Functional</title>
+      <link>http://www.siete3.com/tags/functional/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript</title>
       <link>http://www.siete3.com/tags/javascript/</link>
-      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/javascript/</guid>
       <description></description>

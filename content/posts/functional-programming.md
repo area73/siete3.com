@@ -11,7 +11,7 @@ In computer science, functional programming is a programming paradigm — a styl
  It is a <b>declarative</b> programming paradigm, which means programming is done with expressions or declarations instead of statements. To put it in a diferent way we can say that
  <b>declarative programming cares about what</b> to perform an action and imperative cares about how to perform that action
 
-## Imperative Vs. Declarative ||  What Vs. How
+## Declarative Vs. Imperative ||  What Vs. How
 
  In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. Eliminating side effects, i.e., changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.
 

@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Siete3.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>statement branching Vs micro-branching</title>
+      <link>http://www.siete3.com/posts/statement-branching-vs-micro-branching/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/statement-branching-vs-micro-branching/</guid>
+      <description>statement branching Any construct that alters the sequence of statement execution within the global or functional scope. These include:
+if else switch for while  Statements are designed to execute non-linearly. Aside from the obvious bloating effect, statement branching tends to become unintuitive as it progresses.
+micro-branching Conditional logic contained within a statement that has no effect on the statement execution seqeunce.
+The following operators facilitate micro-branching:  ternary (&amp;lt;cond&amp;gt; ?</description>
+    </item>
     
     <item>
       <title>IIFE - Iimmediatelly Invoked Function Expression</title>
@@ -19,6 +31,16 @@
       <guid>http://www.siete3.com/posts/patterns/iife/</guid>
       <description>IIFE - Iimmediatelly Invoked Function Expression var foo = &amp;quot;foo1&amp;quot;; (function() { var foo = &amp;quot;foo2&amp;quot;; console.log(foo); // foo2 })(); console.log(foo); // foo1 // we can also write the above statement like: (function() { // code }());  We use IIFE in order to not pollute the global scope.
 Bibliography: Ben Alman: Immediately-Invoked Function Expression (IIFE)</description>
+    </item>
+    
+    <item>
+      <title>Lexical and Dynamic scope</title>
+      <link>http://www.siete3.com/posts/lexical-and-dynamic-scope/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/lexical-and-dynamic-scope/</guid>
+      <description>Lexical scoping Evil eval We can cheat on lexical scoping using eval keywod. The eval keyword, takes any given strings and it treats as it was a code
+var bar = &amp;quot;foo&amp;quot;; function foo(str) { eval(str); console.log(&amp;quot;bar&amp;quot;); // 42 !!!!! } foo(&amp;quot;var bar = 42&amp;quot;);  The problem of doing this is that performance will be afected because as we know JS first assign the LHS (left hand side), witch means that it will read all the assigments on the left and lator will do the right hand side of the code.</description>
     </item>
     
     <item>
@@ -40,6 +62,15 @@ It is a declarative programming paradigm, which means programming is done with e
       <description>Method chaining in Javascript from wikipedia Method chaining, also known as named parameter idiom, is a common syntax for invoking multiple method calls in object-oriented programming languages.
 The key to achieve this is that each method returns an object, allowing the calls to be chained together in a single statement without requiring variables to store the intermediate results.
 A similar syntax is method cascading, where after the method call the expression evaluates to the current object, not the return value of the method.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.siete3.com/posts/global-variables-are-bad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/global-variables-are-bad/</guid>
+      <description>// It is important to declare your variables. (function() { var foo = &#39;Hello, world!&#39;; print(foo); //=&amp;gt; Hello, world! })(); // Because if you don&#39;t, the become global variables. (function() { foo = &#39;Hello, world!&#39;; print(foo) //=&amp;gt; Hello, world! })(); print(foo) //=&amp;gt; Hello, world! // When global variables sneak into your code the can cause problems. // Especially in applications with concurrency. var count = function() { for (i = 0; i &amp;lt; 10; i += 1) { print(i); } }; count(); //=&amp;gt; 0 1 2 3 4 5 6 7 8 9 var countSilently = function() { for (i = 0; i &amp;lt; 10; i += 1) { // don&#39;t print anything; } }; // Both loops increment i at the same time, which causes strange behavior.</description>
     </item>
     
   </channel>

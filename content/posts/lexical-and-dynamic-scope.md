@@ -2,7 +2,7 @@
 title: "Lexical and Dynamic scope"
 date: 2018-01-14
 tags: ["javascript", "design patterns"]
-draft: true
+draft: false
 ---
 
 

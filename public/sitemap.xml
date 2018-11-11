@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.siete3.com/posts/statement-branching-vs-micro-branching/</loc>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/posts/patterns/iife/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/posts/lexical-and-dynamic-scope/</loc>
     <lastmod>2018-01-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,19 +28,29 @@
   </url>
   
   <url>
+    <loc>http://www.siete3.com/posts/global-variables-are-bad/</loc>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/tags/design-patterns/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/functional/</loc>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/tags/javascript/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,19 +68,19 @@
   
   <url>
     <loc>http://www.siete3.com/posts/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/tags/</loc>
-    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
