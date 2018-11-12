@@ -6,10 +6,19 @@
     <description>Recent content in Javascript on Siete3.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 06 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Global variables are bad</title>
+      <link>http://www.siete3.com/posts/global-variables-are-bad/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/global-variables-are-bad/</guid>
+      <description>Extracted from a Gist, a very nice explanation // It is important to declare your variables. (function() { var foo = &#39;Hello, world!&#39;; print(foo); //=&amp;gt; Hello, world! })(); print(foo); // No way José !! // Because if you don&#39;t, the become global variables. (function() { foo = &#39;Hello, world!&#39;; print(foo) //=&amp;gt; Hello, world! })(); print(foo) //=&amp;gt; WTF, it returns &amp;quot;Hello, world!&amp;quot; // When global variables sneak into your code they can cause problems.</description>
+    </item>
     
     <item>
       <title>statement branching Vs micro-branching</title>

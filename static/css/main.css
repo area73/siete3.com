@@ -19,6 +19,32 @@ main {
     width: 100%;
 }
 
+
+h2 {
+    margin-top: 40px;
+}
+
+
+/* code */
+pre {
+    display: block;
+    padding: 10px;
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #F8F5F5;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.hljs {
+    padding: 1rem;
+    line-height: 1.8rem;
+}
+
 /*footer*/
 
 .copyright {
@@ -105,6 +131,7 @@ a:hover {
 .item__tags {
     display: flex;
     flex-flow: wrap;
+    opacity: 0.2;
 }
 
 .item__tags kbd {
@@ -120,7 +147,7 @@ a:hover {
 }
 
 .item-tag {
-    background-color: var(--accent);
+    /* background-color: var(--accent);*/
 }
 
 /*navigation bar icons*/

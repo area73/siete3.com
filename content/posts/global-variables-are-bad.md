@@ -1,7 +1,8 @@
 ---
 title: "Global variables are bad"
 date: 2018-06-14
-tags: ["javascript", "design patterns"]
+tags: ["javascript", "globals"]
+categories: ["javascript"]
 draft: false
 ---
 

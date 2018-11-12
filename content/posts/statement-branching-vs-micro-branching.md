@@ -1,7 +1,8 @@
 ---
 title: "statement branching Vs micro-branching"
 date: 2018-06-06
-tags: ["javascript", "design patterns", "functional"]
+tags: ["statement brnaching", "micro-branching strategies"]
+categories: ["javascript", "functional"]
 draft: false
 ---
 

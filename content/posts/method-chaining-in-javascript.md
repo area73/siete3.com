@@ -1,7 +1,8 @@
 ---
 title: "Method chaining in Javascript"
 date: 2018-01-08
-tags: ["javascript", "method chaining", "named parameter idiom", "design patterns"]
+tags: ["method chaining", "named parameter idiom"]
+categories: ["design patterns"]
 draft: false
 ---
 

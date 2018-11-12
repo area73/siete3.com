@@ -1,7 +1,8 @@
 ---
 title: "IIFE - Iimmediatelly Invoked Function Expression"
 date: 2018-01-14
-tags: ["javascript", "design patterns"]
+tags: ["design patterns", "IIFE"]
+categories: ["design patterns"]
 draft: false
 ---
 # IIFE - Iimmediatelly Invoked Function Expression

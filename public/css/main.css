@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    font-size: 1rem;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
+
 }
 
 main {
@@ -14,6 +16,7 @@ main {
     padding: 25px;
     flex: 1 0 auto;
     max-width: 1200px;
+    width: 100%;
 }
 
 /*footer*/
@@ -68,10 +71,52 @@ a:hover {
     padding: 0 15px;
 }
 
+
+
+
 /*list item for post and projects*/
+
+.list__title {
+    background-color: #F8F5F5;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #eAeAeA;
+}
 
 .item {
     padding: 10px 0;
+    text-align: left;
+}
+.item__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .item__header {
+        display: block;
+    }
+}
+
+
+
+.item__header h4{ }
+.item__header h5{ }
+.item__tags {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.item__tags kbd {
+    border-radius: 0;
+    padding: 4px 10px;
+    white-space: nowrap;
+    box-shadow:none;
+}
+
+.item__tags a {
+    margin-left: 1px;
+    margin-bottom: 3px;
 }
 
 .item-tag {

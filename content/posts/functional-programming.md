@@ -1,7 +1,7 @@
 ---
 title: "functional programming"
 date: 2018-01-12
-tags: ["javascript", "design patterns"]
+tags: ["declarative", "Pure functions","Inmutable","currying"]
 categories: ["Functional"]
 draft: false
 ---
