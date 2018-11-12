@@ -1,5 +1,5 @@
 baseURL = "http://www.siete3.com/"
-languageCode = "es-ES"
+languageCode = "en-US"
 title = "Siete3.com"
 theme = "minimal"
 # theme = "hyde"
@@ -27,24 +27,25 @@ googleAnalytics = ""
 [[menu.main]]
     url = "/"
     name = "Home"
-    weight = 1
+    weight = 10
 
 [[menu.main]]
     identifier = "posts"
     url = "/posts/"
     name = "Posts"
-    weight = 2
+    weight = 20
 
 [[menu.main]]
-    parent= "posts"
-    url = "/posts/patterns/"
-    name = "patterns"
-    weight = 1
-
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
 [[menu.main]]
-    url = "/projects/"
-    name = "Projects"
-    weight = 3
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
