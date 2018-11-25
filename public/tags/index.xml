@@ -6,26 +6,89 @@
     <description>Recent content in Tags on Siete3.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Currying</title>
+      <link>http://www.siete3.com/tags/currying/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/currying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Declarative</title>
+      <link>http://www.siete3.com/tags/declarative/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/declarative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Design Patterns</title>
       <link>http://www.siete3.com/tags/design-patterns/</link>
-      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/design-patterns/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Functional</title>
-      <link>http://www.siete3.com/tags/functional/</link>
-      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Eval</title>
+      <link>http://www.siete3.com/tags/eval/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.siete3.com/tags/functional/</guid>
+      <guid>http://www.siete3.com/tags/eval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Functional Mixins</title>
+      <link>http://www.siete3.com/tags/functional-mixins/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/functional-mixins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Globals</title>
+      <link>http://www.siete3.com/tags/globals/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/globals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hinerance</title>
+      <link>http://www.siete3.com/tags/hinerance/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/hinerance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iife</title>
+      <link>http://www.siete3.com/tags/iife/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/iife/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inmutable</title>
+      <link>http://www.siete3.com/tags/inmutable/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/inmutable/</guid>
       <description></description>
     </item>
     
@@ -48,11 +111,65 @@
     </item>
     
     <item>
+      <title>Micro Branching Strategies</title>
+      <link>http://www.siete3.com/tags/micro-branching-strategies/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/micro-branching-strategies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>http://www.siete3.com/tags/mixins/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/mixins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Named Parameter Idiom</title>
       <link>http://www.siete3.com/tags/named-parameter-idiom/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/named-parameter-idiom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prototype</title>
+      <link>http://www.siete3.com/tags/prototype/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/prototype/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pure Functions</title>
+      <link>http://www.siete3.com/tags/pure-functions/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/pure-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scope</title>
+      <link>http://www.siete3.com/tags/scope/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/scope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statement Brnaching</title>
+      <link>http://www.siete3.com/tags/statement-brnaching/</link>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/tags/statement-brnaching/</guid>
       <description></description>
     </item>
     

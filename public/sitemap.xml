@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.siete3.com/posts/patterns/testing-protoype-inheritance/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/posts/patterns/mixins/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/posts/global-variables-are-bad/</loc>
     <lastmod>2018-06-14T00:00:00+00:00</lastmod>
   </url>
@@ -38,25 +48,79 @@
   </url>
   
   <url>
-    <loc>http://www.siete3.com/tags/design-patterns/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.siete3.com/categories/functional/</loc>
+    <loc>http://www.siete3.com/tags/currying/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.siete3.com/tags/functional/</loc>
+    <loc>http://www.siete3.com/tags/declarative/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/design-patterns/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/categories/design-patterns/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/eval/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/categories/functional/</loc>
     <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://www.siete3.com/tags/functional-mixins/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/globals/</loc>
+    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/hinerance/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/iife/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/inmutable/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/tags/javascript/</loc>
+    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/categories/javascript/</loc>
     <lastmod>2018-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -68,6 +132,24 @@
   </url>
   
   <url>
+    <loc>http://www.siete3.com/tags/micro-branching-strategies/</loc>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/categories/misc/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/mixins/</loc>
+    <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/tags/named-parameter-idiom/</loc>
     <lastmod>2018-01-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -75,19 +157,43 @@
   
   <url>
     <loc>http://www.siete3.com/posts/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/prototype/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/pure-functions/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/scope/</loc>
+    <lastmod>2018-01-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/statement-brnaching/</loc>
+    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/tags/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

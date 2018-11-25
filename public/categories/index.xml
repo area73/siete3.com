@@ -11,11 +11,38 @@
     
     
     <item>
+      <title>Design Patterns</title>
+      <link>http://www.siete3.com/categories/design-patterns/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/categories/design-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Functional</title>
       <link>http://www.siete3.com/categories/functional/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/categories/functional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://www.siete3.com/categories/javascript/</link>
+      <pubDate>Thu, 14 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>http://www.siete3.com/categories/misc/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/categories/misc/</guid>
       <description></description>
     </item>
     

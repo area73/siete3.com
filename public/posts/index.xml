@@ -6,10 +6,32 @@
     <description>Recent content in Posts on Siete3.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 14 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Testing prototype inheritance</title>
+      <link>http://www.siete3.com/posts/patterns/testing-protoype-inheritance/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/patterns/testing-protoype-inheritance/</guid>
+      <description>https://stackoverflow.com/questions/53406070/using-call-to-inherit-objects-from-a-function
+// testing Call to inherit objects / functions // ------------------------------------------- // we declare our first function const funcA = function(firstName) { this.firstName = firstName; this.getFirstName = function() { return &#39;My name is &#39; + this.firstName; }; return this; }; // Create an object out of that function const objA = new funcA(&#39;Rodrigo&#39;); // declare second function const funcB = function (lastName) { this.lastName = lastName; this.getLastName = function() { return &#39;My last name is &#39; + this.</description>
+    </item>
+    
+    <item>
+      <title>Mixins</title>
+      <link>http://www.siete3.com/posts/patterns/mixins/</link>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.siete3.com/posts/patterns/mixins/</guid>
+      <description>In JavaScript we can only inherit from a single object. There can be only one [[Prototype]] for an object. And a class may extend only one other class.
+To solve the use of multi inheritance we use mixins.
+In object-oriented programming languages, a Mixin is a class that contains methods for use by other classes without having to be the parent class of those other classes.
+A mixin can also be viewed as an interface with implemented methods.</description>
+    </item>
     
     <item>
       <title>Global variables are bad</title>
