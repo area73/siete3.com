@@ -17,9 +17,7 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/posts/functional/functors/</guid>
-      <description>#Functors
- Functor is simply an interface with a contract. We could have just as easily named it Mappable, but now, where&amp;rsquo;s the fun in that?. Professor Frisby&amp;rsquo;s 
-A functor is nothing more than a data structure that you can map functions with the purpose of lifting values intro a wrapper, modifying them, and then putting them back into a wrapper.
+      <description>Functors  Functor is simply an interface with a contract. We could have just as easily named it Mappable, but now, where&#39;s the fun in that?. Professor Frisby&#39;s  A functor is nothing more than a data structure that you can map functions with the purpose of lifting values intro a wrapper, modifying them, and then putting them back into a wrapper.
 It is a design pattern that defines semantics for how fmap should work</description>
     </item>
     
