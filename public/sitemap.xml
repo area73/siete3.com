@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.siete3.com/posts/functional/functors/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.siete3.com/posts/patterns/testing-protoype-inheritance/</loc>
     <lastmod>2018-11-21T00:00:00+00:00</lastmod>
   </url>
@@ -33,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://www.siete3.com/posts/functional-programming/</loc>
+    <loc>http://www.siete3.com/posts/functional/functional-programming/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -49,25 +54,25 @@
   
   <url>
     <loc>http://www.siete3.com/tags/currying/</loc>
-    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/tags/declarative/</loc>
-    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.siete3.com/tags/design-patterns/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/categories/design-patterns/</loc>
     <lastmod>2018-11-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/design-patterns/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -79,7 +84,7 @@
   
   <url>
     <loc>http://www.siete3.com/categories/functional/</loc>
-    <lastmod>2018-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,18 +114,18 @@
   
   <url>
     <loc>http://www.siete3.com/tags/inmutable/</loc>
-    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.siete3.com/tags/javascript/</loc>
-    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.siete3.com/categories/javascript/</loc>
+    <lastmod>2018-06-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.siete3.com/tags/javascript/</loc>
     <lastmod>2018-06-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -157,7 +162,7 @@
   
   <url>
     <loc>http://www.siete3.com/posts/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -169,7 +174,7 @@
   
   <url>
     <loc>http://www.siete3.com/tags/pure-functions/</loc>
-    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -181,7 +186,7 @@
   
   <url>
     <loc>http://www.siete3.com/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -193,7 +198,7 @@
   
   <url>
     <loc>http://www.siete3.com/tags/</loc>
-    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Siete3.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 12 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.siete3.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Currying</title>
       <link>http://www.siete3.com/tags/currying/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/currying/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>Declarative</title>
       <link>http://www.siete3.com/tags/declarative/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/declarative/</guid>
       <description></description>
@@ -86,7 +86,7 @@
     <item>
       <title>Inmutable</title>
       <link>http://www.siete3.com/tags/inmutable/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/inmutable/</guid>
       <description></description>
@@ -149,7 +149,7 @@
     <item>
       <title>Pure Functions</title>
       <link>http://www.siete3.com/tags/pure-functions/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.siete3.com/tags/pure-functions/</guid>
       <description></description>
