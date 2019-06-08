@@ -3,7 +3,7 @@ title: "combinators"
 date: 2019-01-10
 tags: ["declarative", "Pure functions","Inmutable","currying", "combinator"]
 categories: ["Functional"]
-draft: true
+draft: false
 ---
 
 # Combinators
