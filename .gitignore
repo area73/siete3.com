@@ -4,3 +4,5 @@
 .DS_Store
 .vscode/
 themes
+public
+/resources/_gen/
