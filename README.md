@@ -33,4 +33,5 @@ to deploy just go into /public folder  and execute:
     surge
 ```
 
-It will ask for credentials and path to deploy (to automate this proccess I create a CNAME finel with the URL to deply to)
+It will ask for credentials and path to deploy (to automate this proccess I create a CNAME file 
+with the URL to deploy to)
