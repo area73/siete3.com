@@ -202,6 +202,6 @@ Supplying less arguments than required
 
 
 Bibliography:<br>
-Wikipedia: https://en.wikipedia.org/wiki/Functional_programming <br>
-Pluralsite video:  [(Fundamentals of Functional Programming in JavaScript by Nate Taylor)](https://app.pluralsight.com/library/courses/javascript-functional-programming-fundamentals/exercise-files)<br>
-w3School: [JavaScript Array Reference](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+* Wikipedia: https://en.wikipedia.org/wiki/Functional_programming <br>
+* Pluralsite video:  [(Fundamentals of Functional Programming in JavaScript by Nate Taylor)](https://app.pluralsight.com/library/courses/javascript-functional-programming-fundamentals/exercise-files)<br>
+* w3School: [JavaScript Array Reference](https://www.w3schools.com/jsref/jsref_obj_array.asp)

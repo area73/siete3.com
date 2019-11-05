@@ -16,7 +16,7 @@ A transducer is a function that accepts a transformer and returns a transformer 
 
 Transducers can:
 * Be Composable
-* They only enumarates over the elements **onces** (very efficient for working with data streams)
+* They only enumerates over the elements **onces** (very efficient for working with data streams)
 * can be use for lazy or eager evaluation
 * You can combine transducer to generate another transducer (High order reducers ¿?)
 
