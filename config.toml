@@ -8,6 +8,10 @@ googleAnalytics = ""
 
 # sectionPagesMenu = "main"
 
+
+[markup.goldmark.renderer]
+unsafe= true
+
 [taxonomies]
     tag = "tags"
     category = "categories"
