@@ -27,7 +27,7 @@ hugo serve -w
 ## Deploy
 To deploy this site I create an account into http://surge.sh/ and I link my domain siete3.com by CNAME.
 
-to deploy just go into /public folder  and execute:
+to deploy just go into **/public** folder  and execute:
 
 ```bash
     surge
